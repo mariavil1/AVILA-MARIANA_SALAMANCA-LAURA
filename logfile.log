@@ -35,3 +35,7 @@ Database may be already in use: "C:/Users/malua/test.mv.db". Possible solutions:
 [2023-08-09 22:36:03] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=2, numeroDeMatricula=12, nombre='nombron', apellido='apellidon'}
 [2023-08-09 22:36:04] [INFO ] [OdontologoDaoH2:78] Se ha encontrado el odontologo Odontologo{id=1, numeroDeMatricula=12, nombre='nombron', apellido='apellidon'}
 [2023-08-09 22:36:04] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=3, numeroDeMatricula=12, nombre='nombron', apellido='apellidon'}
+[2023-08-09 22:42:55] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=1, numeroDeMatricula=12, nombre='camilo', apellido='apellidito'}
+[2023-08-09 22:42:56] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=2, numeroDeMatricula=12, nombre='camila', apellido='apellidote'}
+[2023-08-09 22:42:56] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=3, numeroDeMatricula=12, nombre='camile', apellido='apellidon'}
+[2023-08-09 22:42:56] [INFO ] [OdontologoDaoH2:77] Listado de todos los odontologos: [Odontologo{id=1, numeroDeMatricula=12, nombre='camilo', apellido='apellidito'}, Odontologo{id=2, numeroDeMatricula=12, nombre='camila', apellido='apellidote'}, Odontologo{id=3, numeroDeMatricula=12, nombre='camile', apellido='apellidon'}]

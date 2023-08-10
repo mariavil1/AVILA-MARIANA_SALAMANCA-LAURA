@@ -28,12 +28,4 @@ public class OdontologoDaoEnMemoria implements IDao<Odontologo> {
         LOGGER.info("Listado de todos los odontologos: \n" + odontologoRepository);
         return odontologoRepository;
     }
-    @Override
-    public Odontologo buscarPorId(int id) {
-        Odontologo odontologoBuscado = odontologoRepository.get(id - 1);
-        if (odontologoBuscado != null)
-            LOGGER.info("El odontologo de id " + id + " ha sido encontrado: " + odontologoBuscado);
-        else LOGGER.info("Odontologo no encontrado");
-        return odontologoBuscado;
-    }
 }

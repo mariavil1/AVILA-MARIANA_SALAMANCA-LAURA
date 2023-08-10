@@ -28,9 +28,6 @@ public class Main {
             Odontologo odontologoCreado = logica.registrarOdontologo(odontologo);
             System.out.println(odontologoCreado.toString());
 
-            Odontologo odontologoBuscado = logica.buscarOdontologPorId(odontologoCreado.getId());
-            System.out.println(odontologoBuscado.toString());
-
             List<Odontologo> odontologosBuscados = logica.listarTodosLosOdontologos();
             System.out.println(odontologosBuscados);
 

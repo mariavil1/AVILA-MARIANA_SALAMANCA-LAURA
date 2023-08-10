@@ -33,32 +33,22 @@ public class OdontologoServiceTest {
             }
         }
     }
-    
+
     OdontologoService odontologoService = new OdontologoService(new OdontologoDaoH2());
-
-
-    @Test
-    void deberiaAgregarUnOdontologo(){
-        Odontologo odontologo = new Odontologo(12, "nombron", "apellidon");
-        Odontologo odontologoInsertado = odontologoService.registrarOdontologo(odontologo);
-
-        assertNotNull(odontologoInsertado.getId());
-    }
-
-    @Test
-    void deberiaEncontrarElOdontologoConId1(){
-        Odontologo odontologo = new Odontologo(12, "nombron", "apellidon");
-        Odontologo odontologoInsertado = odontologoService.registrarOdontologo(odontologo);
-        assertNotNull(odontologoService.buscarOdontologPorId(1));
-    }
 
     @Test
     public void deberiaHaberUnaListaNoVacia(){
-        Odontologo odontologo = new Odontologo(12, "nombron", "apellidon");
-        Odontologo odontologoInsertado = odontologoService.registrarOdontologo(odontologo);
+        Odontologo odontologo1 = new Odontologo(12, "camilo", "apellidito");
+        Odontologo odontologo2 = new Odontologo(12, "camila", "apellidote");
+        Odontologo odontologo3 = new Odontologo(12, "camile", "apellidon");
+        odontologoService.registrarOdontologo(odontologo1);
+        odontologoService.registrarOdontologo(odontologo2);
+        odontologoService.registrarOdontologo(odontologo3);
+
         List<Odontologo> odontologosTest = odontologoService.listarTodosLosOdontologos();
         assertFalse(odontologosTest.isEmpty());
         assertTrue(odontologosTest.size() >= 1);
+        assertTrue(odontologosTest.size() == 3);
     }
 
 
