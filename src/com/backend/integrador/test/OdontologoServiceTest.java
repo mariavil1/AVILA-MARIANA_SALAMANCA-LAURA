@@ -50,6 +50,4 @@ public class OdontologoServiceTest {
         assertTrue(odontologosTest.size() >= 1);
         assertTrue(odontologosTest.size() == 3);
     }
-
-
 }

@@ -1,14 +1,12 @@
 package com.backend.integrador;
 
 import com.backend.integrador.dao.IDao;
-import com.backend.integrador.dao.impl.OdontologoDaoEnMemoria;
 import com.backend.integrador.dao.impl.OdontologoDaoH2;
 import com.backend.integrador.entity.Odontologo;
 import com.backend.integrador.service.OdontologoService;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -40,7 +38,5 @@ public class Main {
                 ex.printStackTrace();
             }
         }
-
-
     }
 }
