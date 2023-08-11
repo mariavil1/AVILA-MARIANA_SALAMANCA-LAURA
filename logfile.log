@@ -39,3 +39,15 @@ Database may be already in use: "C:/Users/malua/test.mv.db". Possible solutions:
 [2023-08-09 22:42:56] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=2, numeroDeMatricula=12, nombre='camila', apellido='apellidote'}
 [2023-08-09 22:42:56] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=3, numeroDeMatricula=12, nombre='camile', apellido='apellidon'}
 [2023-08-09 22:42:56] [INFO ] [OdontologoDaoH2:77] Listado de todos los odontologos: [Odontologo{id=1, numeroDeMatricula=12, nombre='camilo', apellido='apellidito'}, Odontologo{id=2, numeroDeMatricula=12, nombre='camila', apellido='apellidote'}, Odontologo{id=3, numeroDeMatricula=12, nombre='camile', apellido='apellidon'}]
+[2023-08-10 21:26:20] [ERROR] [OdontologoDaoH2:43] Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-214]
+[2023-08-10 21:26:20] [ERROR] [OdontologoDaoH2:59] No se pudo cerrar la conexion: Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-08-10 21:27:09] [ERROR] [OdontologoDaoH2:43] Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-214]
+[2023-08-10 21:27:09] [ERROR] [OdontologoDaoH2:59] No se pudo cerrar la conexion: Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-08-10 21:27:25] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=1, numeroDeMatricula=123, nombre='Jose', apellido='Perez'}
+[2023-08-10 21:27:25] [INFO ] [OdontologoDaoH2:77] Listado de todos los odontologos: [Odontologo{id=1, numeroDeMatricula=123, nombre='Jose', apellido='Perez'}]
+[2023-08-10 21:28:38] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=2, numeroDeMatricula=12, nombre='camilo', apellido='apellidito'}
+[2023-08-10 21:28:38] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=3, numeroDeMatricula=12, nombre='camila', apellido='apellidote'}
+[2023-08-10 21:28:38] [INFO ] [OdontologoDaoH2:40] Odontologo guardado: Odontologo{id=4, numeroDeMatricula=12, nombre='camile', apellido='apellidon'}
+[2023-08-10 21:28:38] [INFO ] [OdontologoDaoH2:77] Listado de todos los odontologos: [Odontologo{id=1, numeroDeMatricula=123, nombre='Jose', apellido='Perez'}, Odontologo{id=2, numeroDeMatricula=12, nombre='camilo', apellido='apellidito'}, Odontologo{id=3, numeroDeMatricula=12, nombre='camila', apellido='apellidote'}, Odontologo{id=4, numeroDeMatricula=12, nombre='camile', apellido='apellidon'}]

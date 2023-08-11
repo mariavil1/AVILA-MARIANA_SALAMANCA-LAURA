@@ -20,7 +20,7 @@ public class Main {
         Connection connection = null;
         try{
             Class.forName("org.h2.Driver");
-            connection = DriverManager.getConnection("jdbc:h2:~/test;INIT=RUNSCRIPT FROM 'create.sql'", "sa", "");
+            connection = DriverManager.getConnection("jdbc:h2:~/tests;INIT=RUNSCRIPT FROM 'create.sql'", "sa", "");
 
             Odontologo odontologo = new Odontologo( 123, "Jose", "Perez");
             Odontologo odontologoCreado = logica.registrarOdontologo(odontologo);
